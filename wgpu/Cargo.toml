@@ -154,7 +154,6 @@ hal = { workspace = true, features = ["renderdoc"] }
 
 [target.'cfg(windows)'.dependencies]
 hal = { workspace = true, features = [
-    "dxc_shader_compiler",
     "renderdoc",
     "windows_rs",
 ] }
